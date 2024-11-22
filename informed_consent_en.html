@@ -1,0 +1,138 @@
+<style>
+    #start_button:hover {
+        cursor: pointer;
+        background-color: #4cae4c;
+        ;
+    }
+
+    .consent {
+        font-size: 14px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #user_email {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    ul {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-top: 0.5em;
+    }
+
+    h5 {
+        margin-bottom: 1px;
+        margin-top: 3px;
+        font-size: 16px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    .informedConsent {
+        padding-top: 2em;
+        padding-bottom: 4em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .informedConsent {
+            padding-top: 2em;
+            padding-bottom: 4em;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        .informedConsent {
+            padding-top: 2em;
+            padding-bottom: 4em;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    }
+</style>
+<div class="consent">
+    <img style="width: 25%" src="img/KULeuvenlogo.png">
+    <h5>Title of the research</h5>
+    <p><b>Composition and spatial layout in natural and man-made images</b></p>
+    <h5>Name + contact details supervisor and researcher(s):</h5>
+    <p>
+        <b>Ernest Govaerts - ernest.govaerts@student.kuleuven.be</b><br />
+        <b>Daan Goossens - daan.goossens1@student.kuleuven.be</b>
+    </p>
+    <h5>Goal and methodology of the research</h5>
+    <b> In this experiment, we will explore how people evaluate different types of images. These images include natural
+        scenes and man-made objects. Your task is to rate each image based on various properties, such as complexity,
+        composition, and how pleasant you find it. At the end of the experiment, you will be asked to complete a short
+        personality questionnaire.</b>
+    <h5>Duration of the experiment</h5>
+    <b>Approximately 15 minutes</b>
+    <h5>Conditions for participation</h5>
+    <ul>
+        <li>You are 17 or older </li>
+        <li>You have normal eyesight or wear glasses/lenses to correct your eyesight</li>
+        <li>You are participating in this study on a computer screen (not using a smartphone or tablet) </li>
+    </ul>
+    <h5>Please read the following information</h5>
+    <ul>
+        <li>I understand the goal of this experiment and what is expected from me during this study. </li>
+        <li>I know that I will participate in the following tasks:<br>
+            <b>You will view a series of images presented in two blocks. Each block contains the same images, but the
+                order and evaluation criteria differ. For each image, you will provide ratings using specific scales.
+                These may include questions about how complex, appealing, or interesting you find the image. The
+                experiment concludes with a brief personality questionnaire.</b>
+        </li>
+        <li>I know that I will be compensated for my participation by receiving course credit.</li>
+        <li>This experiment will not lead to any discomfort except for possibly tired eyes after looking at a computer
+            screen for an extended period of time.</li>
+        <li>I understand that my participation to this study is voluntary. I have the right to stop participating at any
+            time. I do not have to give a reason for this and I know that it will not have any negative repercussions
+            for me. The data already collected will be processed as outlined above and there will be no further data
+            collection.</li>
+        <li>The data will be processed in accordance with the European General Data Protection Regulation (GDPR) and the
+            Belgian legislation on the protection of natural persons with regard to the processing of personal data.
+        </li>
+        <li>In the context of the GDPR the collected data will be processed under public interest as the legal basis.
+            When you end your participation the data that were already collected can still legally be included in the
+            research and do not need to be deleted by KU Leuven.</li>
+        <li>The results of this study can be used for scientific goals and may be published. My name or other
+            identifiable information will not be revealed in such publications, and my information would be treated with
+            confidentiality at every stage of the research by using codes (no names or any other identifiable
+            information will be used). The publication process might entail making the research data openly available,
+            which will always be done in such coded format without personal information. By participating in this study
+            I agree that my data will be used for purposes as described in this document. Researchers from KU Leuven are
+            responsible for processing my data.</li>
+        <li>If I have any questions after my participation, I can contact the researchers at the following email
+            address: <b>ernest.govaerts@student.kuleuven.be</b> </li>
+        <li>This study has been reviewed and approved by the Social and Societal Ethics Committee of KU Leuven
+            (Application #APPLICATION_NUMBER#)</li>
+        <li>For any complaints or other concerns about the ethical aspects of this study, I can contact the Social and
+            Societal Ethics Committee of KU Leuven: smec@kuleuven.be.</li>
+        <li>If I want to be kept up to date about the results of this research, I can leave my email address here:
+            <input type="email" id="feedback_email_address">
+        </li>
+    </ul>
+
+    <p><b>I have read and understood this information and I agree to participate in this experiment. If you do not
+            agree, please exit the study at this time</b></p>
+    <p><b>You can take a screen shot of this page if you want to keep your own record of it.</b></p>
+    <button type="button" class="btn btn-success" id="accept_consent_button">Accept informed consent</button>
+    <br><br>
+</div>

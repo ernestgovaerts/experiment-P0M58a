@@ -1,0 +1,137 @@
+<style>
+    #start_button:hover {
+        cursor: pointer;
+        background-color: #4cae4c;
+        ;
+    }
+
+    .consent {
+        font-size: 14px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #user_email {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    ul {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-top: 0.5em;
+    }
+
+    h5 {
+        margin-bottom: 1px;
+        margin-top: 3px;
+        font-size: 16px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    .informedConsent {
+        padding-top: 2em;
+        padding-bottom: 4em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .informedConsent {
+            padding-top: 2em;
+            padding-bottom: 4em;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    @media only screen and (min-width: 1400px) {
+        .informedConsent {
+            padding-top: 2em;
+            padding-bottom: 4em;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    }
+</style>
+<div class="consent">
+    <img style="width: 25%" src="img/KULeuvenlogo.png">
+    <h5>Titel van het onderzoek</h5>
+    <p><b>Samenstelling en ruimtelijke indeling in natuurlijke en door de mens gemaakte beelden</b></p>
+    <h5>Naam en contactgegevens van de onderzoekers:</h5>
+    <p>
+        <b>Ernest Govaerts - ernest.govaerts@student.kuleuven.be</b><br />
+        <b>Daan Goossens - daan.goossens1@student.kuleuven.be</b>
+    </p>
+    <h5>Doel en methodologie van het onderzoek</h5>
+    <b>Tijdens dit experiment zullen we onderzoeken hoe mensen verschillende soorten beelden beoordelen. We maken
+        hierbij gebruik van beelden van natuurlijke scènes en door de mens gemaakte objecten. Uw taak is om elk beeld te
+        beoordelen op een aantal eigenschappen, zoals de complexiteit, samenstelling en hoe aangenaam u het vindt. Aan
+        het einde van het experiment wordt u gevraagd om een korte vragenlijst over uw persoonlijkheid in te vullen.</b>
+    <h5>Duur van het onderzoek</h5>
+    <b>Ongeveer 15 minuten</b>
+    <h5>Voorwaarden voor deelname</h5>
+    <ul>
+        <li>U bent 17 jaar of ouder </li>
+        <li>U heeft een normaal gezichtsvermogen of draagt een bril/lenzen om uw gezichtsvermogen te corrigeren </li>
+        <li>U neemt deel aan dit onderzoek op een computerscherm (niet met een smartphone of tablet) </li>
+    </ul>
+    <h5>Gelieve onderstaande informatie te lezen</h5>
+    <ul>
+        <li>Ik begrijp het doel van dit experiment en wat er van mij wordt verwacht tijdens dit onderzoek.</li>
+        <li>Ik weet dat ik zal deelnemen aan de volgende taken:<br>
+            <b>U zult een reeks beelden te zien krijgen, gepresenteerd in twee blokken. Elk blok bevat dezelfde beelden,
+                maar de volgorde en beoordelingscriteria verschillen. Per beeld vult u een beoordeling in aan de hand
+                van specifieke schalen. Dit kan bijvoorbeeld gaan over hoe complex, aantrekkelijk of interessant u een
+                beeld vindt. Het experiment eindigt met een korte vragenlijst over uw persoonlijkheid./b>
+        </li>
+        <li>Ik weet dat ik voor mijn deelname vergoed zal worden in de vorm van course credits</li>
+        <li>Ik weet dat mijn deelname aan dit experiment niet zal leiden tot enig ongemak, behalve mogelijk vermoeide
+            ogen na langdurig kijken naar een computerscherm.</li>
+        <li>Ik begrijp dat mijn deelname aan dit onderzoek vrijwillig is. Ik heb het recht mijn deelname op elk moment
+            en zonder het aangeven van een reden te beëindigen. Hieraan zijn voor mij geen nadelen verbonden. </li>
+        <li>De gegevens zullen verwerkt worden in overeenstemming met de Europese General Data Protection Regulation
+            (GDPR) en de Belgische regelgeving voor het beschermen van natuurlijke personen aangaande de verwerking van
+            persoonlijke data</li>
+        <li>In de context van de GDPR zullen de verzamelde gegevens beschouwd worden binnen het wettelijk kader van het
+            algemeen belang. Indien u uw deelname afbreekt, mogen uw reeds verzamelde gegevens nog steeds verder
+            verwerkt worden en dienen ze niet automatisch verwijderd te worden door de KU Leuven.</li>
+        <li>De resultaten van deze studie kunnen worden gebruikt voor wetenschappelijke doeleinden en kunnen worden
+            gepubliceerd. Mijn naam of andere vormen van persoonlijke informatie worden nooit bekend gemaakt in
+            dergelijke publicaties, en elke vorm van persoonlijke informatie wordt strikt vertrouwelijk behandeld en
+            gecodeerd bij verdere verwerking (er wordt geen naam of persoonlijke informatie gebruikt). Als onderdeel van
+            het publicatieproces kunnen onderzoeksgegevens publiekelijk beschikbaar gemaakt worden. Dit wordt altijd
+            gedaan in een gecodeerde vorm waardoor er geen persoonlijke informatie gepubliceerd wordt. Door deel te
+            namen aan het onderzoek ga ik akkoord met de gegevensverwerking zoals hierboven beschreven. Onderzoekers van
+            de KU Leuven zijn verantwoordelijk voor het verwerken van deze gegevens.</li>
+        <li>Als ik op de hoogte wil blijven van de resultaten van dit onderzoek, kan ik hier mijn e-mailadres
+            achterlaten: <input type="email" id="feedback_email_address"></li>
+        <li>Deze studie werd gereviewd goedgekeurd door het Social and Societal Ethics Committee van de KU Leuven
+            (Dossier #APPLICATION_NUMBER#)</li>
+        <li>Als ik na mijn deelname vragen heb, weet ik dat ik contact kan opnemen met de onderzoekers op het volgende
+            e-mailadres: <b>ernest.govaerts@student.kuleuven.be</b></li>
+        <li>Voor eventuele klachten of andere zorgen over de ethische aspecten van deze studie kan ik contact opnemen
+            met de Commissie voor Sociale en Maatschappelijke Ethiek van de KU Leuven: smec@kuleuven.be </li>
+    </ul>
+
+    <p><b>Door op de onderstaande knop de drukken, bevestigd u dat u bovenstaande informatie gelezen hebt en dat u
+            akkoord gaat met deelname aan dit onderzoek. Indien u niet wenst deel te nemen, gelieve de studie dan nu te
+            verlaten.</b></p>
+    <p><b>U kan een screenshot nemen van deze pagina om deze informatie bij te houden</b></p>
+    <button type="button" class="btn btn-success" id="accept_consent_button">Ik ga akkoord</button>
+    <br><br>
+</div>
