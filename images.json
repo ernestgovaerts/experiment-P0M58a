@@ -162,5 +162,35 @@
         "img/manmade/COCO - 000000027667.jpg",
         "img/manmade/VIU - image_r_739.jpg",
         "img/manmade/VIU - image_r_103.jpg"
+    ],
+   "instructions": {
+    "en": [
+        "img/instructions/en/composition_1.PNG",
+        "img/instructions/en/composition_2.PNG",
+        "img/instructions/en/composition_3.PNG",
+        "img/instructions/en/composition_4.PNG",
+        "img/instructions/en/composition_5.PNG",
+        "img/instructions/en/composition_6.PNG",
+        "img/instructions/en/spatial_layout_1.PNG",
+        "img/instructions/en/spatial_layout_2.PNG",
+        "img/instructions/en/spatial_layout_3.PNG",
+        "img/instructions/en/spatial_layout_4.PNG",
+        "img/instructions/en/spatial_layout_5.PNG",
+        "img/instructions/en/spatial_layout_6.PNG"
+    ],
+    "nl": [
+        "img/instructions/nl/composition_1.PNG",
+        "img/instructions/nl/composition_2.PNG",
+        "img/instructions/nl/composition_3.PNG",
+        "img/instructions/nl/composition_4.PNG",
+        "img/instructions/nl/composition_5.PNG",
+        "img/instructions/nl/composition_6.PNG",
+        "img/instructions/nl/spatial_layout_1.PNG",
+        "img/instructions/nl/spatial_layout_2.PNG",
+        "img/instructions/nl/spatial_layout_3.PNG",
+        "img/instructions/nl/spatial_layout_4.PNG",
+        "img/instructions/nl/spatial_layout_5.PNG",
+        "img/instructions/nl/spatial_layout_6.PNG"
     ]
+    }
 }

@@ -3,7 +3,7 @@ RATING_SCALES contains components that can be plugged into the questions attribu
 
  */
 const SURVEY_LIKERT_RATING_SCALES = {
-    required: true,
+    required: false,
 
     Beauty: function () {
         switch (window.language) {
@@ -172,6 +172,7 @@ const SURVEY_LIKERT_RATING_SCALES = {
                     name: 'bad-good-composition',
                     labels: ['very bad composition', 'bad composition', 'rather bad composition', 'neutral', 'rather good composition', 'good composition', 'very good composition'],
                     required: this.required
+
                 }
         }
     },
